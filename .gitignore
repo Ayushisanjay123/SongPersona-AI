@@ -1,0 +1,31 @@
+```gitignore
+# Protect secrets
+.env
+.env.*
+!.env.example
+
+# Ignore virtual environments
+venv/
+venv_new/
+.venv/
+
+# Ignore generated Python files
+__pycache__/
+*.py[cod]
+
+# Ignore local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Ignore editor settings
+.vscode/
+```
+
+```gitignore
+# Large local dataset — do not upload to GitHub
+data/song_lyrics.csv
+
+# Ignore Python cache files in all folders
+**/__pycache__/
+```
