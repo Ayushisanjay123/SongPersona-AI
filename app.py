@@ -1,11 +1,13 @@
 import streamlit as st
 import smtplib
 from email.message import EmailMessage
+import re
 
 from database import (
     create_tables,
     create_user,
     login_user,
+    save_song_feedback,
     save_song,
     get_saved_songs,
     remove_saved_song,
@@ -23,7 +25,6 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 from urllib.parse import quote_plus
-
 from utils.recommender import recommend_songs
 from utils.personality_emotion import generate_personality_emotion
 from utils.quiz_mapper import generate_personality
@@ -31,8 +32,6 @@ from utils.quiz_mapper import generate_personality
 
 # Initialize database tables
 create_tables()
-
-
 # --------------------------------------------------
 # Page Configuration
 # --------------------------------------------------
@@ -88,6 +87,10 @@ SongPersona AI
 
 
 def show_authentication():
+    # Switch to Login after successful registration
+    if st.session_state.pop("switch_to_login_after_signup", False):
+        st.session_state["auth_tab"] = "🔐 Login"
+        st.session_state["show_signup_success"] = True
     
     st.markdown(
         '<div class="auth-title">🎵 SongPersona AI</div>',
@@ -99,7 +102,7 @@ def show_authentication():
         unsafe_allow_html=True
     )
 
-        # Center the authentication selector
+    # Center the authentication selector
     auth_col1, auth_col2, auth_col3 = st.columns([1, 2, 1])
 
     with auth_col2:
@@ -109,6 +112,12 @@ def show_authentication():
             horizontal=True,
             key="auth_tab"
         )
+    # Show registration success after the Login tab loads
+    if st.session_state.pop("show_signup_success", False):
+     st.success(
+        "Account created successfully! 🎉 "
+        "You can now log in with your new account."
+    )
 
     # ==================================================
     # FORGOT PASSWORD
@@ -403,19 +412,13 @@ def show_authentication():
 
                     st.session_state.user_email = user[2]
 
-                    saved_profile = get_music_profile(
-                         user[0]
-                    )
+                    saved_profile = get_music_profile(user[0])
 
                     if saved_profile:
 
-                        st.session_state.personality = (
-                          saved_profile[0]
-                        )
+                        st.session_state.personality = saved_profile[0]
 
-                        st.session_state.emotion_profile = (
-                           saved_profile[1]
-                        )
+                        st.session_state.emotion_profile = saved_profile[1]
 
                         st.session_state.profile_created = True
 
@@ -427,13 +430,12 @@ def show_authentication():
 
                         st.session_state.profile_created = False
 
-                        st.session_state.page = "home"
+                    # Trigger login success animation
+                    st.session_state["show_login_success"] = True
 
-                        st.success(
-                           f"Welcome back, {user[1]}! 🎵"
-                        )
+                    st.session_state.page = "home"
 
-                        st.rerun()
+                    st.rerun()
 
                 else:
 
@@ -484,43 +486,54 @@ def show_authentication():
             key="signup_button"
         ):
 
+            # Clean user inputs
+            clean_name = signup_name.strip()
+            clean_email = signup_email.strip().lower()
+
+            # 1. Check all fields
             if (
-                not signup_name
-                or not signup_email
+                not clean_name
+                or not clean_email
                 or not signup_password
+                or not signup_confirm_password
             ):
 
-                st.error(
-                    "Please fill in all fields."
-                )
+                st.error("Please fill in all fields.")
 
-            elif signup_password != signup_confirm_password:
+            # 2. Validate email format
+            elif not re.fullmatch(
+                r"[^@\s]+@[^@\s]+\.[^@\s]+",
+                clean_email
+            ):
 
-                st.error(
-                    "Passwords do not match."
-                )
+                st.error("Please enter a valid email address.")
 
+            # 3. Check password length
             elif len(signup_password) < 6:
 
                 st.error(
                     "Password must be at least 6 characters."
                 )
 
+            # 4. Confirm passwords match
+            elif signup_password != signup_confirm_password:
+
+                st.error("Passwords do not match.")
+
             else:
 
                 created = create_user(
-                    signup_name.strip(),
-                    signup_email.strip().lower(),
+                    clean_name,
+                    clean_email,
                     signup_password
                 )
 
                 if created:
 
-                    st.session_state.auth_mode = "login"
-
-                    st.success(
-                        "Account created successfully! 🎉"
-                    )
+                    # Switch to Login after registration
+                    st.session_state[
+                        "switch_to_login_after_signup"
+                    ] = True
 
                     st.rerun()
 
@@ -1735,6 +1748,13 @@ def show_recommendations(
                 width="stretch"
             ):
 
+                save_song_feedback(
+                    st.session_state.user_id,
+                    title,
+                    artist,
+                    "love"
+                )
+
                 st.session_state[
                     f"feedback_{current_offset}_{rank}"
                 ] = "love"
@@ -1750,6 +1770,13 @@ def show_recommendations(
                 key=f"feedback_no_{current_offset}_{rank}",
                 width="stretch"
             ):
+
+                save_song_feedback(
+                    st.session_state.user_id,
+                    title,
+                    artist,
+                    "not_for_me"
+                )
 
                 st.session_state[
                     f"feedback_{current_offset}_{rank}"
@@ -3366,6 +3393,15 @@ if not st.session_state.logged_in:
     show_authentication()
 
 else:
+        # Login success celebration
+    if st.session_state.pop("show_login_success", False):
+
+        st.balloons()
+
+        st.toast(
+            f"Welcome back, {st.session_state.user_name}! 🎵",
+            icon="🎉"
+        )
 
     if st.session_state.page == "home":
 

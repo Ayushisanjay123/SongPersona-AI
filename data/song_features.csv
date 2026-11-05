@@ -1,0 +1,501 @@
+title,artist,Introversion,Emotional Intensity,Romanticism,Energy Preference,Optimism,Independence
+Killa Cam,Cam'ron,1.44,1.28,0.7,1.79,1.73,1.9
+Can I Live,JAY-Z,1.9,1.74,0.17,1.09,0.25,2.13
+Forgive Me Father,Fabolous,1.01,1.86,0.17,1.64,0.44,2.49
+Down and Out,Cam'ron,1.8,1.23,1.07,0.63,0.46,1.87
+Fly In,Lil Wayne,1.47,1.13,1.3,1.58,1.67,2.51
+Lollipop Remix,Lil Wayne,1.09,1.42,0.62,1.56,1.14,2.18
+Im Not You,Clipse,1.77,1.72,2.15,1.22,0.33,1.4
+Family Ties,Cam'ron,1.29,1.72,0.42,1.44,0.45,2.41
+Rockin and Rollin,Cam'ron,0.99,1.32,1.74,1.78,1.14,2.22
+Lord You Know,Cam'ron,2.35,1.98,0.86,0.6,0.0,1.09
+Money On My Mind,Lil Wayne,1.25,1.72,1.28,0.91,0.0,1.49
+Think Yall Know,Fabolous,1.0,1.66,0.16,1.29,0.42,2.21
+DEvils,JAY-Z,0.61,1.57,1.39,2.38,1.06,1.75
+December 4th,JAY-Z,1.97,1.5,2.45,0.91,0.5,2.01
+98 Freestyle,Big L,0.45,2.47,1.28,2.26,0.12,2.53
+What Happened to That Boy?,Birdman,0.32,2.26,0.73,2.12,0.24,2.35
+Its Hot Some Like It Hot,JAY-Z,0.8,2.14,0.16,2.08,0.44,2.63
+Losing Weight Pt. 2,Cam'ron,0.58,2.29,0.8,2.24,0.33,2.43
+Its Like That,JAY-Z,0.83,1.8,0.59,2.01,1.0,2.35
+More Gangsta Music,Cam'ron,0.66,1.79,1.21,1.87,0.77,2.11
+Mr. Carter,Lil Wayne,1.1,1.62,0.81,1.75,0.81,2.03
+The Liberation of Lonzo Williams,The Coup,1.31,2.05,0.25,1.39,0.09,2.06
+Encore / Curtains Down,Eminem,1.24,1.65,0.67,1.78,1.06,2.18
+Foo Dang,Anybody Killa,0.51,2.37,0.4,2.17,0.17,2.49
+Love Is Love,AZ,0.81,2.06,3.1,2.05,0.52,2.84
+Sunshine,AZ,2.4,1.47,0.35,0.47,0.02,1.7
+Time,AZ,1.05,1.92,0.95,1.96,0.6,2.48
+Hey AZ,AZ,1.0,1.78,0.2,1.91,0.9,2.74
+Colors,Gucci Mane,1.63,0.69,0.98,1.59,2.26,2.39
+Broads,Big Tymers,0.71,1.63,4.03,1.78,0.87,1.99
+Fly Out,Lil Wayne,1.35,1.51,0.47,1.32,0.68,2.57
+Im Blooded,Lil Wayne,0.32,2.45,0.12,2.36,0.25,2.49
+A Milli,Fabolous,0.88,1.68,0.32,1.9,1.07,2.28
+Big Girl,Ghostface Killah,1.93,1.45,1.08,0.36,0.19,1.1
+C.R.E.A.M.,Wu-Tang Clan,1.91,1.46,0.26,0.97,0.55,2.3
+Warning,The Notorious B.I.G.,0.73,1.82,0.85,1.81,0.56,2.38
+Never Change,AZ,1.77,0.73,1.03,1.22,1.79,2.56
+Steady Mobbin’,Young Money,0.6,1.91,0.42,1.51,0.25,1.94
+Suck My Dick,Lil' Kim,0.22,2.21,1.55,1.88,0.09,2.24
+Comedy Central,Clipse,3.0,1.77,0.82,0.39,0.0,1.2
+Im a Hustla,Re-Up Gang,1.49,1.6,0.42,1.37,0.56,2.69
+Carter II,Lil Wayne,2.08,0.76,0.42,0.7,1.13,3.12
+Ride for My Niggas Sky is the Limit,Lil Wayne,0.9,1.83,0.53,1.64,0.4,2.1
+Pop Bottles,Birdman,1.01,1.8,0.82,1.77,0.68,2.52
+Harlem Streets,Cam'ron,0.84,1.85,1.05,1.76,0.55,2.55
+Dr. C. Ph.D,Canibus,0.71,1.83,0.37,1.52,0.29,2.43
+Barry Bonds,Kanye West,0.29,2.02,0.44,2.5,0.84,2.27
+Fireman,Lil Wayne,1.4,1.26,0.59,1.29,1.08,2.36
+On My Own,Lil Wayne,1.12,1.77,0.47,1.65,0.55,2.49
+Whatever I Wan Do,Fabolous,1.51,1.21,0.08,1.06,0.77,2.94
+Brooklyn Go Hard,JAY-Z,1.37,2.09,0.47,1.53,0.11,1.91
+Juicy,The Notorious B.I.G.,1.37,1.07,0.8,1.75,2.03,2.26
+D.O.A. Death of Auto-Tune,JAY-Z,1.55,2.3,0.04,1.27,0.0,1.34
+Youre Nobody Til Somebody Kills You,The Notorious B.I.G.,1.67,1.75,0.66,0.59,0.0,1.09
+Me  My Bitch,The Notorious B.I.G.,0.51,2.17,2.48,1.84,0.16,2.31
+Major Pain  Bossalini,C-Bo,1.88,1.15,0.8,1.13,1.02,2.81
+Brooklyn Zoo,Ol' Dirty Bastard,0.49,2.34,0.08,1.99,0.04,2.22
+The What,The Notorious B.I.G.,0.49,2.27,0.36,1.97,0.13,2.37
+Im Gettin Money,Fabolous,2.5,1.26,0.14,0.49,0.31,1.76
+Not Give a Fuck,Fabolous,2.43,0.88,0.73,0.7,1.18,2.43
+Ten Crack Commandments,The Notorious B.I.G.,1.01,1.65,0.09,1.37,0.44,2.49
+Niggaz,Fabolous,1.03,1.73,0.73,1.37,0.39,2.34
+Knock Yourself Out,Jadakiss,1.65,1.39,0.52,1.05,0.62,2.11
+Hate,JAY-Z,0.26,1.29,2.55,0.77,0.43,1.4
+We Gonna Make It,Jadakiss,1.2,1.91,1.46,1.58,0.46,2.22
+Back That Azz Up,Juvenile,0.34,2.31,0.35,2.01,0.09,2.38
+A Star Is Born,JAY-Z,0.53,1.53,0.7,2.62,2.13,1.96
+A Milli,Lil Wayne,1.47,2.06,0.14,1.25,0.0,1.48
+I Get Crazy,Nicki Minaj,0.96,1.79,0.66,1.79,0.6,1.9
+Can I Get A…,JAY-Z,0.76,1.93,4.02,1.71,0.39,2.39
+Already Home,JAY-Z,1.56,1.68,0.93,1.39,0.55,2.2
+The Documentary,The Game,1.85,1.57,0.85,1.1,0.46,2.49
+Feelin It,JAY-Z,1.68,1.34,1.19,1.16,0.83,2.19
+Eghck,Clipse,2.07,1.77,0.13,0.88,0.0,1.44
+1st of tha Month,Bone Thugs-N-Harmony,1.79,1.16,1.19,1.12,1.04,2.52
+My Name Is,Eminem,0.55,1.62,0.6,2.27,1.0,2.07
+Lodi Dodi,Snoop Dogg,2.15,2.48,2.33,1.25,0.0,1.33
+Shimmy Shimmy Ya,Ol' Dirty Bastard,1.12,1.2,0.27,0.91,0.79,1.88
+Go Crazy,Jeezy,1.63,1.35,1.02,0.79,0.64,1.6
+Suicide,Fabolous,0.69,2.1,0.11,1.73,0.17,2.21
+What We Talkin About,JAY-Z,2.2,2.07,0.21,0.86,0.0,1.11
+Run This Town,JAY-Z,1.72,1.75,0.54,1.15,0.27,1.45
+Empire State of Mind,JAY-Z,1.84,0.82,1.05,1.07,1.6,2.39
+Renegade,JAY-Z,1.78,1.99,0.66,0.94,0.0,1.31
+Mo Money Mo Problems,The Notorious B.I.G.,1.33,1.6,0.54,1.6,0.76,2.72
+We Fly High,Jim Jones,0.66,2.02,0.2,1.94,0.46,2.31
+Slow Jamz,Twista,1.62,0.7,2.41,1.5,2.35,2.28
+Spend the Night,Cam'ron,1.57,0.85,1.62,1.16,1.58,2.4
+Mrs. Officer,Lil Wayne,1.63,1.04,0.84,1.4,1.64,2.0
+Grindin Remix,Clipse,0.84,1.39,0.92,2.18,1.73,2.11
+Weezy Baby,Lil Wayne,0.9,1.7,0.41,1.14,0.21,1.92
+The Rain Supa Dupa Fly,Missy Elliott,2.71,2.0,0.69,0.77,0.0,0.96
+Rain,Chamillionaire,1.97,1.2,1.23,1.44,1.93,1.06
+3 Peat,Lil Wayne,0.77,2.28,0.5,2.08,0.31,2.18
+Make It Rain Remix,Fat Joe,0.71,1.91,1.28,2.17,0.96,2.24
+All Falls Down,Kanye West,0.9,1.73,0.51,1.39,0.42,2.04
+One More Chance / Stay With Me Remix,The Notorious B.I.G.,1.52,1.18,3.12,1.35,1.22,2.34
+Money Cash Hoes,JAY-Z,1.1,1.64,1.65,1.6,0.67,2.74
+N.Y. State of Mind,Nas,1.7,1.44,0.45,1.04,0.49,2.28
+Gettin Money Get Money Remix,Junior M.A.F.I.A.,1.12,1.36,0.81,1.17,0.64,2.26
+Allure,JAY-Z,2.36,1.74,2.66,0.64,0.04,1.18
+Why?,Jadakiss,0.46,2.12,1.22,2.27,0.48,2.3
+Gihad,Raekwon,0.48,2.0,0.74,1.71,0.23,2.11
+The Saga,Cormega,2.31,1.63,1.04,0.66,0.13,1.56
+Yellow Brick Road,Eminem,0.62,1.56,0.44,1.26,0.43,2.1
+To Live and Die in L.A.,2Pac,1.51,1.68,2.92,1.29,0.52,2.17
+I’m a Dboy,Lil Wayne,0.74,2.26,0.06,1.91,0.11,2.38
+Tony/Montana,Cormega,0.99,1.9,1.07,1.97,0.72,2.81
+Real Nis,The Diplomats,2.43,1.82,0.81,0.8,0.13,1.63
+Thank You,JAY-Z,1.98,0.6,1.5,0.99,1.76,3.01
+Whats Up Fatlip?,Fatlip,2.38,1.75,0.8,1.06,0.47,1.16
+Get Em Girls,Cam'ron,1.51,0.88,0.43,1.55,1.98,2.69
+Tha Crossroads D.J. U-Neeks Mo Thug Remix,Bone Thugs-N-Harmony,2.57,1.59,1.04,0.62,0.24,1.66
+Angelz,MF DOOM,0.33,1.64,0.73,2.54,1.13,2.08
+Crunk Muzik,The Diplomats,1.32,1.9,0.48,1.54,0.36,2.03
+Halftime,Nas,2.17,1.86,0.15,0.82,0.0,1.32
+The World Is Yours,Nas,2.07,0.92,0.12,0.79,0.97,3.03
+Thuggish Ruggish Bone,Bone Thugs-N-Harmony,1.42,1.39,0.39,1.0,0.51,2.39
+Keys Open Doors,Clipse,0.79,1.18,1.43,2.49,2.89,1.4
+Back to the Topic Freestyle,J. Cole,1.46,1.85,0.78,1.29,0.23,1.92
+Glass,Pill,1.58,1.77,0.57,0.64,0.0,1.25
+Just to Get By,J. Cole,1.59,1.37,0.24,0.87,0.51,2.09
+Elevators Me  You,OutKast,1.42,1.06,0.46,1.54,1.62,2.41
+Neva Eva Get On My Level,Trillville,0.42,2.54,0.44,2.48,0.21,2.45
+Hate It or Love It,The Game,1.97,1.49,4.3,1.18,0.83,1.93
+Not Pussified,Heene Boyz,0.74,1.76,1.17,1.75,0.79,2.19
+Day ‘N’ Nite Nightmare,Kid Cudi,3.53,1.98,0.72,0.12,0.0,0.76
+5 Star Remix,Yo Gotti,0.59,2.25,0.45,2.12,0.33,2.47
+Rubber Band Man,T.I.,1.28,1.73,1.17,1.36,0.33,1.78
+Ignorant Shit,JAY-Z,0.66,2.04,0.99,1.51,0.04,1.92
+Real As It Gets,JAY-Z,0.86,1.54,0.82,1.88,1.01,2.08
+Why You Mad At Me?,T.I.,1.1,1.63,0.57,1.8,0.78,2.76
+Losin Weight,Cam'ron,0.8,2.19,0.47,1.86,0.19,2.3
+Bitches Aint Shit,Dr. Dre,0.38,1.99,1.29,1.58,0.14,2.08
+Get Em Daddy,Cam'ron,1.07,1.55,0.56,1.61,0.86,2.47
+Evening News,Chamillionaire,1.19,2.0,0.39,1.54,0.15,2.31
+Dear Summer,Memphis Bleek,2.25,1.24,3.83,1.18,1.58,1.35
+Combination Pizza Hut and Taco Bell,Das Racist,0.52,1.35,0.77,2.34,1.36,2.11
+The Watcher 2,JAY-Z,1.7,1.93,0.21,0.96,0.0,1.3
+Get Money,Junior M.A.F.I.A.,0.27,2.58,0.35,2.41,0.09,2.61
+Success,JAY-Z,0.3,2.36,0.66,2.14,0.13,2.47
+Forever,"Drake, Kanye West, Lil Wayne & Eminem",0.89,2.05,4.01,1.82,0.31,2.49
+Get By Remix,Talib Kweli,1.1,1.97,1.01,1.51,0.21,2.08
+Zealots,Fugees,2.67,1.93,0.35,0.22,0.0,0.39
+Stan,Eminem,0.93,1.88,3.97,1.79,0.48,1.98
+Kill You,Eminem,0.44,2.45,0.38,2.18,0.06,2.38
+Yeah,Usher,0.63,1.75,0.37,2.01,1.06,2.03
+Im Goin In,Drake,0.59,1.95,0.09,1.67,0.3,2.31
+Still Not a Player,Big Pun,0.91,1.67,1.02,1.31,0.4,2.19
+The Calm,Drake,2.94,2.03,1.57,0.51,0.0,1.04
+Put On Remix,Jeezy,1.37,1.63,0.28,1.62,0.83,2.56
+Ugly Remix,Bubba Sparxxx,1.68,2.05,1.14,1.31,0.0,1.29
+Aint Life Grand,Bubba Sparxxx,1.42,1.21,0.47,0.93,0.7,2.41
+Claremont Lounge,Bubba Sparxxx,0.99,1.41,0.99,1.97,1.79,1.64
+On My Block,Scarface,0.83,1.35,1.21,2.02,1.35,2.13
+I Wish,Skee-Lo,1.74,1.19,1.18,1.31,1.13,2.11
+My Neck My Back Lick It,Khia,1.48,1.49,0.67,0.37,0.0,1.1
+Whats Beef?,The Notorious B.I.G.,2.38,1.54,0.57,0.61,0.36,1.32
+Heart of the City Aint No Love,JAY-Z,0.71,2.27,6.1,2.01,0.2,2.42
+Captain Kirk,Master P,1.1,1.74,1.47,1.72,0.7,2.45
+Average Cat,Beanie Sigel,1.66,1.93,1.3,1.05,0.0,1.47
+Dreams,Domo Genesis,2.38,1.76,0.2,0.61,0.0,0.72
+Back in the Mudd Zone 4 Remix,Bubba Sparxxx,0.95,1.46,0.85,0.99,0.38,1.73
+As the Rim Spins,Bubba Sparxxx,2.85,1.16,1.04,0.41,0.64,2.16
+Got Your Money,Ol' Dirty Bastard,0.82,2.01,0.63,2.17,0.88,2.12
+Let Me Ride,Dr. Dre,1.9,1.46,0.15,0.9,0.4,2.04
+This Is the Carter,Lil Wayne,0.59,2.01,0.48,2.01,0.61,2.41
+Hurt Me Soul,Lupe Fiasco,1.51,1.73,1.21,0.93,0.16,1.69
+Ride wit Me,Nelly,0.69,1.67,0.92,2.29,1.26,1.94
+Gin and Juice,Snoop Dogg,0.91,1.5,0.73,0.69,0.07,1.33
+21 Questions,50 Cent,1.6,0.71,6.75,1.69,2.63,2.05
+Roc Boys And the Winner Is...,JAY-Z,0.69,0.45,1.3,2.84,4.55,1.14
+Rhinestone Cowboy,Madvillain,2.66,1.21,0.21,0.38,0.45,1.53
+Takeover,JAY-Z,0.75,1.92,0.39,1.48,0.19,2.15
+The Rulers Back,JAY-Z,1.19,1.23,0.65,1.6,1.48,2.46
+Gimme the Loot,The Notorious B.I.G.,0.45,2.3,0.74,2.11,0.19,2.29
+2009 BET Hip Hop Awards - Cypher 3,BET,1.82,0.93,0.42,0.72,0.9,2.74
+D.O.A.,Lil Wayne,0.67,1.54,0.12,0.93,0.21,1.75
+Brooklyns Finest,JAY-Z,0.85,1.84,0.58,1.91,0.76,2.33
+Still D.R.E.,Dr. Dre,1.74,0.95,2.99,0.88,1.1,2.52
+Bed Intruder Song,The Gregory Brothers,1.6,1.6,6.12,1.09,0.37,2.23
+Hard Knock Life Ghetto Anthem,JAY-Z,0.95,2.05,1.69,1.93,0.47,2.49
+Swagga Like Us,JAY-Z & T.I.,1.3,1.13,0.45,1.71,1.53,2.61
+We Takin Over,DJ Khaled,1.3,1.4,0.56,1.58,1.04,2.74
+Dr. Carter,Lil Wayne,2.5,1.36,1.37,0.33,0.12,1.3
+Protect Ya Neck,Wu-Tang Clan,0.73,2.18,0.68,1.85,0.17,2.3
+Boomerang,Big Pun,2.34,2.22,1.16,1.02,0.0,1.21
+Georgia... Bush / Weezyz Ambitionz,Lil Wayne,0.89,2.18,1.11,1.95,0.3,2.36
+Venus vs. Mars,JAY-Z,1.14,1.33,0.33,1.34,0.87,2.21
+Onion Head,Sean Price,1.17,2.05,0.47,1.68,0.23,2.01
+Big Poppa,The Notorious B.I.G.,1.5,0.9,3.26,0.97,1.28,2.45
+Bubble Music,Cam'ron,1.97,0.66,0.31,0.96,1.55,2.94
+We Make Change,Cam'ron,0.53,2.1,1.37,2.09,0.49,2.48
+Ebonics,Big L,0.95,1.11,0.96,0.43,0.32,1.83
+Dead Presidents II,JAY-Z,1.16,1.63,0.9,1.75,1.02,2.27
+Living A Lie,Cam'ron,1.29,1.74,0.85,1.5,0.5,2.06
+Smoke and Get High,Project Pat,0.92,2.01,0.11,1.63,0.21,2.15
+Role Model,Eminem,0.98,2.0,0.41,1.48,0.1,2.08
+Where Im From,JAY-Z,1.02,1.58,0.69,1.33,0.49,2.55
+Chinese New Year,Clipse,1.89,2.02,0.11,1.02,0.0,1.28
+Aint No Fun If the Homies Cant Have None,Snoop Dogg,1.02,1.73,1.48,1.54,0.52,2.11
+Regulate,Warren G,1.47,1.52,0.39,1.46,0.82,2.21
+La Fièvre,Suprme NTM,2.18,1.47,0.3,0.86,0.53,1.4
+Onslaught,Slaughterhouse,0.96,2.01,0.75,1.73,0.31,2.37
+What More Can I Say,JAY-Z,0.61,2.08,1.03,1.92,0.33,2.47
+Leave Me Alone Pt. 2,Cam'ron,0.53,2.28,0.1,2.12,0.25,2.54
+Lose Yourself,Eminem,1.45,1.62,2.2,1.1,0.32,2.27
+Kinda Like a Big Deal,Clipse,1.59,0.64,0.88,1.51,2.2,2.53
+Popular Demand Popeyes,Clipse,1.91,1.47,0.45,0.5,0.05,1.35
+I Told Yall,Lil Wayne,1.39,2.25,0.38,1.46,0.0,1.67
+A Thugz Prayer,Bizzy Bone,2.37,0.6,0.14,0.61,1.2,3.29
+The Otherside,Bubba Sparxxx,2.33,1.75,0.19,0.66,0.0,0.9
+C Section,Canibus,0.59,1.66,1.1,2.23,0.93,2.3
+The Rapper Eater,Lil Wayne,2.21,0.65,0.54,0.86,1.51,3.19
+Young Boy,Clipse,0.27,2.37,0.06,2.08,0.06,2.34
+Nightmares,Clipse,2.82,1.9,0.65,0.14,0.0,0.28
+Changes,2Pac,1.3,1.41,0.8,0.99,0.54,2.09
+Party and Bullshit,The Notorious B.I.G.,1.64,2.08,0.66,1.09,0.0,1.37
+Ice Cream,Lil Wayne,0.76,1.94,0.08,1.46,0.15,2.09
+Get It In Ohio,Cam'ron,1.37,1.02,1.28,1.41,1.49,2.55
+Drama A/T,Canibus,2.04,2.21,1.22,1.04,0.0,1.34
+Blackout,DMX,0.68,2.12,1.58,1.75,0.16,2.27
+Twas the Night Before Christmas,Damani Nkosi,0.55,1.65,0.57,2.48,1.75,2.14
+Wayne on Me,Lil Wayne,1.58,0.78,1.9,1.23,1.78,2.56
+Soap Opera,Cam'ron,1.57,1.51,2.38,1.2,0.6,1.94
+Labor,Aesop Rock,1.76,1.16,0.39,1.19,1.0,3.3
+Notorious Thugs,The Notorious B.I.G.,1.08,1.97,0.78,1.69,0.42,2.25
+Dumb Out,Joe Budden,1.7,1.15,0.76,0.9,0.75,2.66
+Hail Mary,2Pac,1.35,2.12,1.12,1.62,0.19,2.06
+Subterranean Homesick Blues,Bob Dylan,2.39,0.86,0.54,0.6,0.97,2.84
+Ether,Nas,0.96,2.13,2.0,1.72,0.2,2.24
+Keep Your Shit the Hardest,DMX,1.48,1.72,0.37,1.52,0.6,2.18
+Here to There,Equipto,2.31,0.9,0.66,0.82,1.22,2.16
+Mixing Up the Medicine,Juelz Santana,1.45,1.43,0.61,1.45,0.9,2.22
+One More Chance,The Notorious B.I.G.,0.61,1.78,0.57,1.78,0.61,2.15
+Its Me Bitches,Swizz Beatz,0.59,1.88,0.46,2.43,1.34,2.13
+Beam Me Up Scotty,Nicki Minaj,0.91,1.91,0.13,1.72,0.42,2.53
+Thug Motivation 101,Jeezy,1.83,1.84,0.51,1.24,0.34,1.73
+Lifes a Bitch,Nas,0.63,1.98,0.1,1.91,0.46,2.66
+Wordy Rappinghood,Tom Tom Club,1.95,1.37,0.4,1.07,0.66,2.7
+Fuck tha Police,N.W.A,0.28,2.66,0.03,2.44,0.0,2.57
+Still Po Pimpin,Do or Die,1.84,1.31,0.39,1.19,0.93,2.3
+Lets Go From Me to U,Juelz Santana,1.27,1.33,0.72,1.67,1.46,2.24
+In da Club,50 Cent,1.0,1.7,3.53,1.77,0.84,2.56
+No Ceilings Pop That,Lil Wayne,1.52,2.42,0.02,1.46,0.0,1.52
+Miss You Remix,Aaliyah,3.73,2.34,4.25,0.15,0.0,0.25
+Hello Brooklyn 2.0,JAY-Z,0.96,1.76,0.88,1.86,0.83,2.36
+It Was a Good Day,Ice Cube,1.87,1.67,0.33,1.11,0.47,1.17
+Through the Wire,Kanye West,1.43,1.92,1.42,1.24,0.0,1.43
+The Nigga Ya Love to Hate,Ice Cube,0.57,2.33,2.48,1.98,0.06,2.26
+Still Fly,Big Tymers,1.69,0.93,1.1,1.33,1.58,2.41
+Keep Their Heads Ringin,Dr. Dre,0.81,1.51,0.52,2.16,1.65,2.03
+California Love,2Pac,2.75,1.57,0.67,0.24,0.0,0.99
+Money to Blow,Birdman,0.54,2.14,0.79,2.11,0.43,2.42
+Nuthin But a G Thang,Dr. Dre,2.01,1.01,0.79,0.75,0.94,2.47
+Bouncin Back Bumpin Me Against The Wall,Mystikal,1.09,1.87,0.42,1.86,0.48,1.81
+Not Tonight,Lil' Kim,0.75,1.43,0.68,0.91,0.33,1.97
+Big Brother,Kanye West,1.99,1.43,0.47,0.79,0.33,1.81
+Go DJ,Lil Wayne,1.35,1.49,0.16,1.38,0.74,2.62
+I Get Around,2Pac,1.21,1.69,0.86,1.55,0.63,2.22
+Run This Town,Lil Wayne,0.82,1.04,0.77,2.17,2.6,1.64
+Moment of Clarity,JAY-Z,2.01,0.45,0.74,1.12,2.26,2.79
+The World Is Filled...,The Notorious B.I.G.,0.7,1.85,0.41,1.62,0.41,2.39
+Keepin it Gangsta Remix,Fabolous,1.55,1.19,1.06,1.07,0.85,2.71
+You Dont Know,Jean Grae,0.5,2.63,0.05,2.38,0.0,2.56
+You Ain’t Got Nuthin,Lil Wayne,1.0,1.81,0.2,1.29,0.25,1.91
+Dead Wrong,The Notorious B.I.G.,0.85,1.6,1.04,1.2,0.34,2.1
+I Used to Love H.E.R.,Common,1.67,1.2,2.95,1.08,0.98,2.51
+Stakes is High,De La Soul,1.96,0.91,3.19,0.82,1.07,2.8
+Nobodys Home,Do or Die,1.58,0.57,1.05,1.7,2.66,2.27
+Who Am I,Do or Die,0.69,1.96,0.45,2.4,1.27,2.12
+Ultimate Shutdown,Do or Die,1.32,2.31,0.7,1.68,0.0,1.89
+All In The Club,Do or Die,1.68,1.11,0.9,1.25,1.18,2.71
+Dog Shit,Wu-Tang Clan,0.78,1.65,0.78,1.38,0.47,2.14
+How to Rob,50 Cent,0.99,1.09,1.2,2.29,2.85,1.22
+Southern Hospitality,Ludacris,2.26,0.47,1.75,0.75,1.67,3.19
+Losin My Love,Juelz Santana,0.68,0.56,6.63,3.06,4.81,0.6
+Hey Papi,JAY-Z,1.01,0.99,1.27,1.27,1.53,2.04
+BedRock,Young Money,1.35,1.09,2.37,1.63,1.8,1.94
+Exhibit A Transformations,Jay Electronica,1.52,1.21,0.52,0.72,0.51,2.04
+Kick in the Door,The Notorious B.I.G.,1.45,2.17,0.39,1.34,0.0,1.55
+Ain’t Got Time The W. Carter Collection,Lil Wayne,1.45,1.44,0.38,1.37,0.74,3.05
+Izzo H.O.V.A.,JAY-Z,1.83,0.82,0.77,1.2,1.76,2.48
+A Week Ago,JAY-Z,0.55,1.85,0.6,1.96,0.61,2.26
+Cant Knock the Hustle,JAY-Z,0.96,1.63,1.09,1.46,0.59,2.29
+Politics as Usual,JAY-Z,2.08,2.12,1.1,1.06,0.0,1.43
+22 Twos,JAY-Z,0.37,2.49,1.62,2.4,0.19,2.54
+Aint No Nigga,JAY-Z,1.25,1.64,1.05,1.22,0.41,2.18
+Friend or Foe,JAY-Z,1.43,1.52,0.14,1.02,0.4,2.04
+Coming of Age,JAY-Z,1.41,1.56,0.11,1.53,0.76,2.92
+Cashmere Thoughts,JAY-Z,0.83,1.68,0.45,1.41,0.42,2.22
+Bring It On,JAY-Z,1.0,1.65,0.11,1.53,0.64,2.66
+Regrets,JAY-Z,3.19,1.95,1.48,0.29,0.0,0.87
+Can I Live II,JAY-Z,0.28,2.59,0.35,2.49,0.13,2.74
+Cant Knock the Hustle Remix,JAY-Z,1.85,1.53,1.4,0.91,0.25,1.73
+Burn Hollywood Burn,Public Enemy,0.39,1.77,0.05,1.23,0.13,1.94
+Marshall Mathers,Eminem,0.48,2.07,1.11,1.92,0.34,2.09
+Guess Whos Back,Scarface,0.96,1.31,0.23,0.94,0.62,1.83
+The Champ,Ghostface Killah,1.27,1.57,0.67,0.58,0.0,1.2
+Fat Cats Bigga Fish,The Coup,0.78,1.95,0.53,1.77,0.36,1.99
+Pimps Free Stylin at the Fortune 500 Club,The Coup,1.16,1.39,1.11,1.36,0.87,2.51
+Dont Feel Right,The Roots,2.99,1.74,0.55,0.29,0.0,1.26
+Letter 2 My Unborn,2Pac,2.13,1.97,3.16,0.52,0.0,0.94
+Cocktales,Too $hort,0.6,2.01,1.28,1.55,0.12,2.02
+Welcome to D-Block,Jadakiss,1.0,1.7,0.56,1.83,0.83,2.51
+Money Flow,Do or Die,1.67,1.05,0.56,1.14,1.05,2.78
+I Came for the Money,Fabolous,1.13,1.95,0.17,1.72,0.39,2.49
+Bomb First My Second Reply,2Pac,1.32,2.35,0.38,1.62,0.0,1.79
+Death Wish,Jadakiss,0.39,2.41,0.65,2.19,0.13,2.54
+6 Minutes of Death,Joe Budden,1.33,1.75,1.0,1.49,0.48,2.07
+Welcome to the Terrordome,Public Enemy,2.53,1.91,0.98,0.7,0.0,1.01
+I Love the Dough,The Notorious B.I.G.,0.56,0.85,6.27,2.74,3.39,1.27
+Second Round K.O.,Canibus,0.35,1.89,0.65,1.43,0.13,2.02
+Shakey Dog,Ghostface Killah,0.6,2.09,0.48,1.88,0.27,2.09
+Lemonade,Gucci Mane,1.06,1.53,0.57,1.86,0.87,1.84
+Mic Checka,Das EFX,1.76,1.22,0.65,1.24,1.12,2.29
+Im Ill,Red Cafe,1.02,1.61,0.36,1.01,0.25,1.41
+Niggas Bleed,The Notorious B.I.G.,1.96,1.56,0.23,0.68,0.03,1.17
+Steady Mobbin,Ice Cube,0.69,1.82,0.5,1.68,0.52,2.26
+Twinz Deep Cover 98,Big Pun,1.33,2.37,0.95,1.56,0.0,1.69
+Cuchi Shop,Nicki Minaj,1.4,1.31,0.25,1.52,1.15,2.85
+Release,Blackalicious,2.45,1.79,1.02,0.58,0.0,1.32
+I Used to Know Her,DJ Quik,1.66,1.13,0.95,1.27,1.13,2.5
+Work,Gang Starr,1.14,1.42,0.56,1.71,0.9,2.01
+Im Only Out for One Thang,Ice Cube,0.44,1.92,0.48,1.84,0.46,2.26
+Got My Mind Made Up,2Pac,1.84,2.16,0.36,1.12,0.0,1.39
+Breathe,Fabolous,1.28,1.29,0.69,0.75,0.39,2.09
+Im a Hustla,Cassidy,1.88,0.91,0.5,0.91,1.21,2.72
+How High,Method Man & Redman,0.44,2.21,1.87,1.87,0.11,2.31
+24 Hours to Live,Ma$e,0.68,2.13,1.29,1.72,0.1,2.23
+Mind Sex,dead prez,2.3,0.3,2.97,0.68,1.91,3.19
+Dig It,The Coup,1.62,2.32,0.05,1.31,0.0,1.36
+Hit Em Up,2Pac,0.14,2.8,1.24,2.75,0.07,2.81
+Obnoxious,Immortal Technique,0.21,2.5,0.34,2.27,0.05,2.5
+Over,Drake,0.77,1.79,0.65,1.75,0.51,2.02
+Holy Smokes,Aesop Rock,0.8,1.37,0.18,1.05,0.5,2.03
+Whats the Difference,Dr. Dre,0.41,2.46,0.65,2.23,0.08,2.53
+In This World,Reflection Eternal,3.65,2.22,2.08,0.16,0.0,0.43
+Doggy Dogg World,Snoop Dogg,0.76,2.2,0.38,1.93,0.21,2.46
+Drop the World,Lil Wayne,1.79,2.14,1.0,0.97,0.0,1.19
+Im Back,T.I.,0.85,2.05,0.44,2.08,0.57,2.78
+Patiently Waiting,50 Cent,0.68,2.22,0.39,1.94,0.18,2.37
+Rikers Island,Kool G. Rap & DJ Polo,1.97,0.93,0.59,1.28,1.94,1.52
+A Million and One Questions Remix,JAY-Z,0.71,1.66,0.66,1.75,0.79,2.04
+Beware Jay-Z Remix,JAY-Z,1.55,1.29,0.72,1.25,1.02,2.08
+Cant Deny It,Fabolous,1.0,1.71,0.21,1.64,0.62,2.51
+The Shipment,The Coup,0.61,1.84,0.09,1.44,0.26,2.17
+Welcome to New York City,Cam'ron,0.88,1.82,0.62,1.9,0.89,2.03
+Hot Spot,Foxy Brown,1.34,1.56,1.15,1.6,0.88,2.64
+Me and Jesus the Pimp in a 79 Granada Last Night,The Coup,1.6,1.44,3.64,1.21,0.61,2.12
+Ink My Whole Body,Wiz Khalifa,1.14,1.54,0.34,1.63,0.88,2.42
+The Dynasty Intro,JAY-Z,2.47,1.3,0.75,0.51,0.29,1.67
+What We Do,Freeway,1.4,1.63,0.44,1.2,0.4,2.18
+Survival of the Fittest,Mobb Deep,2.56,1.91,1.26,0.41,0.0,0.72
+Big Pimpin,JAY-Z,1.13,1.97,1.43,1.71,0.45,2.34
+Swag Surf,Lil Wayne,0.79,1.47,0.41,0.83,0.23,1.68
+Hell Yeah Remix,dead prez,2.31,0.79,0.82,0.69,1.14,2.94
+Watagatapitusberry Remix,Pitbull,1.19,1.43,0.65,1.51,0.87,1.61
+The Heist,Big L,1.98,1.85,1.33,0.93,0.07,1.44
+Beamer Benz or Bentley Remix,Lloyd Banks,0.8,2.06,0.4,2.01,0.49,2.81
+Bingo,Gucci Mane,0.77,1.87,1.01,2.25,1.08,2.27
+Volume,Gucci Mane,0.31,2.67,0.04,2.49,0.03,2.66
+Pachanga,Fabolous,1.56,1.9,2.51,1.35,0.29,1.92
+Bring the Noise,Public Enemy,0.67,1.71,0.83,2.13,0.83,2.02
+Gingerbread Man,Gucci Mane,1.15,1.24,0.44,1.6,1.05,2.45
+Esau vs. Blackmel,Esau,0.3,2.36,0.68,2.15,0.14,2.45
+I Think Im In Love,Gucci Mane,0.81,1.6,1.62,2.28,1.62,2.51
+Im Single,Lil Wayne,0.61,1.87,0.11,1.41,0.2,2.05
+Born 2 Kill,M.O.P.,1.42,2.42,0.34,1.53,0.0,1.6
+Downtown Swinga 96,M.O.P.,0.63,1.48,0.72,2.61,2.21,1.97
+Downtown Swinga 98,M.O.P.,1.28,2.03,0.76,1.65,0.36,1.69
+Its All About the Benjamins Remix,Puff Daddy & the Family,1.64,1.45,0.14,0.99,0.49,2.17
+Runnin Dying to Live,2Pac,0.44,1.64,0.98,2.34,0.97,1.91
+Long Kiss Goodnight,The Notorious B.I.G.,1.42,2.34,6.03,1.59,0.0,1.87
+Making a Name for Ourselves,Common,2.01,2.23,0.31,0.9,0.0,0.98
+We Dont Care,Kanye West,0.95,1.88,0.16,1.64,0.44,2.3
+Who Shot Ya?,The Notorious B.I.G.,0.59,2.28,0.38,1.88,0.04,2.22
+Girls Girls Girls,JAY-Z,1.14,0.77,6.77,2.02,2.91,1.93
+Hip Hop Iz,Equipto,1.78,1.47,0.74,1.21,0.77,2.02
+Primo Tribute,Joell Ortiz,1.41,1.57,1.13,1.77,0.93,1.57
+Our Dreams,Meth  Ghost  Rae,1.89,0.9,2.63,1.15,1.44,3.09
+Me and My Girlfriend,2Pac,1.51,2.33,6.16,1.52,0.0,1.67
+Deep Cover,Dr. Dre,1.07,2.26,0.2,1.68,0.01,2.03
+I Wanna Rock The Kings G-Mix,Snoop Dogg,1.06,2.28,0.42,1.86,0.08,2.04
+Ghetto Quran Forgive Me,50 Cent,1.7,1.57,0.91,0.87,0.28,1.81
+Song Cry,JAY-Z,1.37,1.19,3.75,1.73,1.6,1.82
+Whiteys Revenge Eminem Diss,Everlast,1.76,2.09,1.29,1.06,0.0,1.29
+Talk Like Sex,Kool G. Rap & DJ Polo,1.29,1.52,1.06,0.83,0.2,1.72
+La Menage,Black Sheep,1.37,1.18,0.48,0.92,0.74,2.26
+Horchata,Vampire Weekend,1.8,1.48,0.46,0.68,0.13,1.62
+Small Thing to a Giant,Gudda Gudda,1.44,1.89,0.7,1.38,0.2,2.19
+Where the Hood At?,DMX,1.36,2.18,0.9,1.33,0.0,1.72
+Ice Cream Paint Job Remix,Dorrough Music,1.55,1.31,0.61,1.52,1.25,2.0
+Look Like Jesus,Lil B,0.19,2.5,0.07,2.38,0.15,2.57
+Wasted,Gucci Mane,1.33,1.65,0.3,0.84,0.12,1.51
+2 Of Amerikaz Most Wanted,2Pac,0.97,2.0,0.75,1.49,0.1,1.76
+Life’s on the Line,50 Cent,0.82,2.18,0.1,1.72,0.05,2.01
+313,Eminem,1.2,1.54,0.83,1.52,0.77,2.56
+Freaky Gurl,Gucci Mane,1.01,1.49,0.76,1.93,1.4,2.07
+Pussy Money Weed,Lil Wayne,0.87,1.0,6.25,0.81,1.0,1.74
+Welcome 2 Houston,Slim Thug,1.28,1.29,2.32,1.23,0.9,2.51
+How Low,Ludacris,2.04,0.79,0.51,0.82,1.15,2.99
+Heartz Of Men,2Pac,2.32,1.95,1.88,0.58,0.0,0.67
+St. Ides Liquor Commercial 1993,2Pac,1.83,1.4,0.41,1.18,0.67,1.76
+My Chick Bad,Ludacris,1.56,1.57,0.63,1.31,0.71,1.91
+Last of a Dying Breed,Ludacris,0.87,1.7,1.62,1.97,0.98,2.14
+Revolver,Lil Wayne,1.48,1.64,6.4,1.63,0.87,2.24
+Hot Revolver,Lil Wayne,2.14,1.59,1.99,1.05,0.56,1.88
+Ready for the World,Lil Wayne,2.57,1.94,0.7,0.4,0.0,0.59
+Pursuit of Happiness Nightmare,Kid Cudi,2.15,1.57,0.62,0.77,0.37,1.31
+Haterz,Glasses Malone,1.18,1.65,0.79,1.29,0.43,2.03
+Throw It In The Bag Remix,Fabolous,1.84,0.98,0.59,1.08,1.23,2.73
+Stronger Freestyle,Crooked I,2.88,1.63,1.11,0.54,0.16,1.82
+Always Strapped Remix 1,Birdman,1.09,1.31,1.16,1.91,1.75,2.09
+Cant Turn Back,Spice 1,1.37,2.11,0.8,1.59,0.16,2.09
+Stop Being Blinded,Esau,2.86,2.06,0.83,0.32,0.0,0.46
+Rush,Funkmaster Flex,1.6,1.15,0.89,1.41,1.36,2.67
+All Around the World,JAY-Z,1.34,1.23,1.95,1.59,1.36,2.39
+Soundtrack 2 My Life,Kid Cudi,3.02,1.8,1.09,0.28,0.0,0.8
+Make Her Say I Poke Her Face,Kid Cudi,1.09,1.58,1.24,1.3,0.56,1.8
+Stupid Wild,Gucci Mane,0.67,2.47,0.81,2.31,0.25,2.42
+Make tha Trap Say Aye,OJ da Juiceman,1.2,1.22,0.32,1.46,1.29,2.41
+Spotlight,Gucci Mane,0.99,1.03,0.89,2.27,2.54,1.57
+Come Gangsta,Tech N9ne,2.27,2.07,0.38,0.69,0.0,0.76
+Queens Gambit,DJ Muggs & GZA The Genius,2.26,0.28,0.88,0.63,1.86,3.11
+Sound Off,Slaughterhouse,0.89,1.91,0.2,1.74,0.4,2.22
+Cold World,GZA,2.39,2.07,0.04,0.56,0.0,0.7
+Conflict Diamonds,Lupe Fiasco,2.04,1.53,2.16,0.32,0.0,1.06
+Eminem Freestyles on Tim Westwood | 2010,Eminem,1.02,1.58,0.42,1.23,0.44,2.25
+My Time,Fabolous,1.06,1.36,0.65,2.14,2.06,1.82
+Throw it in the Bag,Fabolous,1.92,0.8,0.25,0.91,1.31,2.88
+Baby Dont Go,Fabolous,1.5,1.42,1.9,1.55,1.15,2.34
+Soon Youll Understand,JAY-Z,1.99,2.0,4.62,0.86,0.0,1.39
+Break Up,Mario,1.82,2.43,2.27,1.49,0.0,1.54
+Quitter Everlast Diss,Eminem,0.72,2.22,4.13,1.92,0.18,2.15
+Smile,Scarface,1.5,0.98,1.19,2.16,3.15,0.93
+ASAP,T.I.,1.95,1.88,1.16,1.45,0.35,1.23
+Talk About A Girl,Charizma & Peanut Butter Wolf,2.31,1.52,0.25,0.74,0.22,1.25
+I Want It All,Birdman,1.3,1.44,0.34,1.71,1.19,2.6
+Stuntin Like My Daddy,Birdman & Lil Wayne,0.45,2.22,0.1,2.09,0.29,2.54
+Bossy,Birdman,1.45,1.13,3.95,1.54,1.34,2.83
+I Stay Fly,Drake,1.25,1.74,0.19,1.76,0.66,2.76
+Never Too Much Money,Gucci Mane,0.67,2.17,0.31,2.32,0.64,2.4
+Any Man Fucking Crazy,Eminem,0.5,1.74,0.43,1.34,0.24,1.93
+Whip It Like a Slave,Lil Wayne,0.89,1.33,0.17,0.85,0.42,1.74
+Ghetto Rich Remix 1,Rich Boy,1.52,1.98,0.81,1.36,0.14,2.14
+Bricks,Gucci Mane,1.58,2.26,0.03,1.22,0.0,1.37
+Im Raw,Fabolous,0.38,1.66,0.06,1.07,0.12,1.78
+When to Stand Up,DJ Jazzy Jeff,0.5,2.5,0.66,2.16,0.0,2.33
+Who Could Fuck Wit Me,J.R. Writer,0.47,1.59,0.14,1.02,0.15,1.57
+Bird Call,J.R. Writer,1.27,1.25,0.7,0.82,0.52,2.24
+Airplanes,B.o.B,1.75,0.77,0.6,1.39,1.93,2.33
+Pay Homage,J.R. Writer,1.98,0.82,0.13,0.75,1.06,3.1
+Heart of a Lion Kid Cudi Theme Music,Kid Cudi,3.34,2.14,3.15,0.06,0.0,0.15
+Dumb It Down,Lupe Fiasco,1.06,2.29,0.08,1.74,0.0,1.95
+Purple Pills,D12,2.0,1.68,1.51,0.63,0.0,1.05
+Ya Playin Yaself,Jeru the Damaja,1.99,1.32,0.06,0.73,0.4,2.28
+Work That Thing,E.S.G.,2.02,1.02,0.55,0.96,1.1,2.41
+First Brick,E.S.G.,0.54,2.32,0.08,2.19,0.27,2.61
+Grippin Grain,E.S.G.,1.71,0.82,3.14,1.25,1.57,2.66
+U Dont Know Remix,JAY-Z,0.54,2.04,0.28,2.08,0.54,2.23
+The Lost Tribe of Shabazz,Lakim Shabazz,2.5,1.93,1.11,0.83,0.0,1.23
+Ski Mask Way,50 Cent,0.9,1.44,0.39,1.8,0.99,2.44
+Treat Her Like a Prostitute,Slick Rick,0.9,1.47,2.17,0.88,0.24,1.89
+Nutmeg,Ghostface Killah,0.94,2.12,0.43,1.79,0.23,2.22
+Till I Collapse,Eminem,1.54,2.21,1.68,1.36,0.0,1.64
+O.P.P.,Naughty By Nature,1.97,0.9,2.56,0.68,0.93,2.61
+Mathematics,Yasiin Bey,1.45,1.61,0.4,1.53,0.61,1.92
+Frowny Face,Gucci Mane,1.02,1.93,0.22,1.72,0.44,2.36
+Machine Gun Funk,The Notorious B.I.G.,1.71,1.13,0.52,1.01,0.96,2.57
+Icy,Gucci Mane,1.51,2.02,1.23,1.55,0.26,2.07
+Raindrops,Slaughterhouse,3.3,1.88,0.74,0.3,0.0,1.0
+Grown Simba,J. Cole,0.53,1.47,0.07,0.76,0.12,1.57
+Warrior Pt. 2,Lloyd Banks,0.71,1.9,0.74,1.82,0.55,2.52
+Stay Wide Awake,Eminem,2.14,1.78,0.12,0.58,0.0,1.11
+Good Dank,Wiz Khalifa,1.34,1.61,0.57,1.5,0.75,2.49
+Miracles,Insane Clown Posse,0.78,2.09,1.46,2.04,0.39,2.14
+Full Clip,Gang Starr,1.65,1.79,1.09,1.29,0.34,1.99
+Mass Appeal,Gang Starr,2.9,2.18,0.5,0.44,0.0,0.55
+B.O.B.,OutKast,1.52,1.49,0.26,1.38,0.79,2.44
+Rosa Parks,OutKast,1.77,1.8,0.66,1.06,0.23,1.65
+Ms. Jackson,OutKast,3.34,2.03,3.83,0.33,0.0,0.72
+Rappers Delight,Sugarhill Gang,1.39,1.42,2.37,1.27,0.78,2.07
+One Love,Nas,0.52,2.45,6.1,2.35,0.23,2.68
+Pushin,Bun B,1.17,1.63,0.17,1.53,0.67,2.63
+Show Me,Gucci Mane,0.73,2.14,0.73,2.12,0.47,2.68
+Love My Life,Cam'ron,1.33,1.74,2.54,1.6,0.61,2.76
+Despicable,Eminem,0.34,1.51,0.05,0.8,0.07,1.58
+Stronger,Kanye West,1.67,1.25,4.5,1.35,1.15,2.56
+Get Busy,The Roots,2.42,1.13,0.19,0.55,0.58,2.31
+Who Dat,J. Cole,0.89,1.95,0.24,1.7,0.31,2.01
+Shutterbugg,Big Boi,1.66,1.37,0.57,1.25,0.78,2.39
+Doo Rags,Nas,1.81,1.0,1.34,1.51,2.23,0.73
+Not Afraid,Eminem,1.74,1.69,1.88,1.26,0.28,1.27
+Roger That,Young Money,1.04,1.52,0.88,2.08,1.77,1.49
+Illin,Jeezy,2.72,1.6,0.2,0.25,0.0,0.99
+Cannon,Lil Wayne,0.67,1.69,2.52,1.32,0.35,2.07
+All Falls Down,Jadakiss,2.14,1.06,0.47,0.74,0.8,2.77
+Microphone,Slaughterhouse,0.67,2.05,0.7,1.8,0.28,2.46
+Downfall,Joe Budden,1.48,1.85,1.46,1.4,0.32,2.15

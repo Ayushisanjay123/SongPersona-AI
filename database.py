@@ -4,6 +4,7 @@ import hashlib
 import secrets
 import smtplib
 import json
+import hmac
 from email.message import EmailMessage
 from datetime import datetime, timedelta
 from dotenv import load_dotenv
@@ -91,6 +92,7 @@ def create_tables():
         )
     """)
 
+
     # ----------------------------------------------
     # Saved Songs
     # ----------------------------------------------
@@ -140,6 +142,22 @@ def create_tables():
             FOREIGN KEY (user_id) REFERENCES users(id)
         )
     """)
+        # ----------------------------------------------
+    # Song Feedback
+    # ----------------------------------------------
+
+    cursor.execute("""
+        CREATE TABLE IF NOT EXISTS song_feedback (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            user_id INTEGER NOT NULL,
+            title TEXT NOT NULL,
+            artist TEXT NOT NULL,
+            feedback TEXT NOT NULL,
+            created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+            FOREIGN KEY (user_id) REFERENCES users(id),
+            UNIQUE(user_id, title, artist)
+        )
+    """)
 
     conn.commit()
     conn.close()
@@ -150,9 +168,67 @@ def create_tables():
 
 def hash_password(password):
 
-    return hashlib.sha256(
+    # Generate a unique random salt
+    salt = secrets.token_bytes(16)
+
+    # Hash the password using PBKDF2
+    password_hash = hashlib.pbkdf2_hmac(
+        "sha256",
+        password.encode(),
+        salt,
+        600000
+    )
+
+    # Store algorithm, iterations, salt and hash together
+    return (
+        f"pbkdf2_sha256$600000$"
+        f"{salt.hex()}$"
+        f"{password_hash.hex()}"
+    )
+
+
+# ADD THE NEW FUNCTION HERE 👇
+
+def verify_password(password, stored_password):
+
+    # Check whether this is a new PBKDF2 password
+    if stored_password.startswith("pbkdf2_sha256$"):
+
+        try:
+            algorithm, iterations, salt, stored_hash = (
+                stored_password.split("$")
+            )
+
+            salt = bytes.fromhex(salt)
+
+            password_hash = hashlib.pbkdf2_hmac(
+                "sha256",
+                password.encode(),
+                salt,
+                int(iterations)
+            )
+
+            is_valid = hmac.compare_digest(
+                password_hash.hex(),
+                stored_hash
+            )
+
+            return is_valid, False
+
+        except (ValueError, TypeError):
+            return False, False
+
+    # Check an old SHA-256 password
+    old_hash = hashlib.sha256(
         password.encode()
     ).hexdigest()
+
+    is_valid = hmac.compare_digest(
+        old_hash,
+        stored_password
+    )
+
+    return is_valid, is_valid
 
 
 # ==================================================
@@ -202,25 +278,46 @@ def login_user(email, password):
     conn = get_connection()
     cursor = conn.cursor()
 
-    hashed_password = hash_password(
-        password
-    )
-
     cursor.execute("""
-        SELECT id, name, email
+        SELECT id, name, email, password
         FROM users
         WHERE email = ?
-        AND password = ?
-    """, (
-        email,
-        hashed_password
-    ))
+    """, (email,))
 
-    user = cursor.fetchone()
+    user_data = cursor.fetchone()
+
+    if not user_data:
+        conn.close()
+        return None
+
+    user_id, name, user_email, stored_password = user_data
+
+    # Verify the entered password
+    is_valid, needs_upgrade = verify_password(
+        password,
+        stored_password
+    )
+
+    if not is_valid:
+        conn.close()
+        return None
+
+    # Upgrade old SHA-256 password to PBKDF2
+    if needs_upgrade:
+
+        new_password_hash = hash_password(password)
+
+        cursor.execute("""
+            UPDATE users
+            SET password = ?
+            WHERE id = ?
+        """, (new_password_hash, user_id))
+
+        conn.commit()
 
     conn.close()
 
-    return user
+    return user_id, name, user_email
 
 
 # ==================================================
@@ -314,6 +411,36 @@ def remove_saved_song(song_id, user_id):
     conn.commit()
     conn.close()
 
+# ==================================================
+# SAVE SONG FEEDBACK
+# ==================================================
+
+def save_song_feedback(user_id, title, artist, feedback):
+
+    conn = get_connection()
+    cursor = conn.cursor()
+
+    cursor.execute("""
+        INSERT INTO song_feedback (
+            user_id,
+            title,
+            artist,
+            feedback
+        )
+        VALUES (?, ?, ?, ?)
+        ON CONFLICT(user_id, title, artist)
+        DO UPDATE SET
+            feedback = excluded.feedback,
+            created_at = CURRENT_TIMESTAMP
+    """, (
+        user_id,
+        title,
+        artist,
+        feedback
+    ))
+
+    conn.commit()
+    conn.close()
 
 # ==================================================
 # FIND USER BY EMAIL
